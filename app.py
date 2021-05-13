@@ -8,6 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     df = pd.DataFrame({'one':[1,2,3]})
+    print('Мф ынесли изменения forWork')
     return 'Hello World!'
 
 
